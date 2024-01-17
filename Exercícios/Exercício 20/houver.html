@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemplo de Houver</title>
+    <style>
+        body{
+            font-family: cursive;
+        }
+
+        div > p{
+            display: none;
+        }
+        /*Quando eu coloco div:houver > p é como se eu estivesse dizendo que a minha div tem um filho chamado p e eu posso configurar da msm forma que eu configura uma class ou uma id.*/
+        div:hover > p{
+            display: block;
+            color: white;
+            background-color: blue;
+            width: 300px;
+        }
+
+        div:hover {
+            color: blue;
+        }
+    </style>
+</head>
+<body>
+    <h1>Exemplo de Houver</h1>
+    <p>Passe o mouse sobre o texto abaixo</p>
+    <div>
+        Passe o mouse aqui!
+        <p>TEXTO ESCONDIDO...</p>
+    </div>
+    <p>Fim do exemplo</p>
+</body>
+</html>

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mídias em HTML5</title>
+</head>
+<body>
+    <h1>Imagem Dinâmica</h1>
+    <p>Tente abrir esse site em vários dispositivos diferentes ou simplesmente aumente e diminua o tamanho do seu nagevador.</p>
+
+    <!--Já deixo claro que essa parte não funcionou, não sei oq eu fiz de errado-->
+    <picture>
+        <source media="(max-width: 750px)" srcset="imagens/Lertra P.jpg" type="image/jpg">
+        <source media="(max-width: 1050px)" srcset="imagens/Lertra m.png" type="Image/png">
+        <img src="imagens/letra g.jpg" alt="Imagem flixível"> <!--Essa é a imagem maior pelo qual eu quero trabalhar, seguindo uma ordem de tamanho do maior para o menor, de baixo para cima, eu consigo manipular as imagens para aparecer dependendo do tamanho da minha tela, da G vai para M e da M vai para a P.-->
+    </picture>
+
+    <h1>Reproduzindo áudio</h1> <!---Esse audio vai se reperir para sempre, pois eu usei o comando loop, pra parar é só pausar e por o play na música seguinte-->
+    <p>Vamos aprender a reproduzir audios em HTML5.</p>
+    <audio src="midia/zombie.mp3" autoplay controls loop></audio>
+    <!--Os sites são compatíveis com MP3, WAV, OGG, o arquivo wav é mais pesado e o menos recomendado de se usar em um site-->
+
+    <h1>Usando uma música MP3 maior</h1>
+    <p>Vamos utilizar uma música sertaneja</p>
+    <audio src="midia/pilantra.mp3" controls autoplay></audio>
+    <!--!!!Lembrando que isso foi apenas um teste, na hora de publicar o site tome cuidado com mídias e seus direitos autoraes!!!-->
+</body>
+</html>

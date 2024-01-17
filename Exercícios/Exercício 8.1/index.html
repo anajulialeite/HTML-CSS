@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Outras formatações</title>
+</head>
+<body>
+    <h1>Outras formatações</h1>
+    <h2>Código-Fonte / Pré-formatação</h2>
+    <p>O comando document.<code>getElementById('teste')</code> é escrito em linguagem JavaScript</p>
+<!--Para identar o código basta usar a tag pre e depois usar shift + tab para definir a posição do meu código-->
+    <pre>
+        <code>
+    num = int(input('Digite um número'))
+    if num % 2 == 0:
+        print('O número {num} é PAR')
+    else
+        print(f'O número {num} é ÍMPAR')
+    print('Fim do programa')
+        </code>
+    </pre>
+    <h2>Citações simples</h2>
+    <!--vc pode colocar as aspas sozinho, mas para um programador, usar a tag, vc está dando sentido de uma citação, quando não for uma citação, aí sim, vc pode colocar as aspas sozinho, sem o uso de uma tag.-->
+    <p>Como diria o pai de um amigo: <q>O computador é um burro muito rápido</q>.</p>
+    <h2>Citações completas</h2>
+    <p>Sugundo Jeff Noble, no seu livro HTML para leigos:</p>
+    <blockquote cite = "https://www.google.com.br/books/edition/Fundamentos_de_HTML5_e_CSS3/2iPYCQAAQBAJ?hl=pt-BR&gbpv=1">
+        A diferença entre elementos inline e um bloco de texto é importante. Os elemnetos HTML neste capítulo descrevem os blocos de texto.
+    </blockquote>
+    <h2>Abreviações</h2>
+    <p>Estou estudando <abbr title="Hayper Text Markup Language">HTML</abbr> e <abbr title="Cascading Style Sheets">CSS</abbr>. Estou adorando!</p>
+    <h2>Texto invertido</h2>
+    <!--Tag não muito ulizada, porém é importante aprender, ela faz com que a frase fique de trás para frente.-->
+    <p><bdo dir="rtl">Estou aprendendo a criar coisas em HTML.</bdo></p>
+</body>
+</html>

@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trabalhando com links</title>
+</head>
+<body>
+    <h1>Usando links externos</h1>
+    <!--Para envelopar um tag selecione os botões CTRL + SHIFT + P, clica no enter e depois coloque a tag a-->
+    <p>Você pode acessar o meu <a href="https://github.com/anajulialeite" target="_blank" rel="external">perfil do Github</a></p> <!--Tag a, significa âncora-->
+    <p>Você também pode acessar o <a href="https://www.linkedin.com/in/ana-j%C3%BAlia-de-lima-aguiar-leite-009a58209/" target="_blank" rel="external">meu linkedin</a></p>
+    <!--Target e Rel serve para abrir uma nova janela do GitHub e Linkedin, utilizado também caso o site não seja seu-->
+    <h1>Usando links internos</h1>
+    <p>Está é a primeira página do site. Se você quiser, pode acessar também a minha <a href="pag002.html" rel="next" target="_self"> <!--rel next é uma função para ir para a próxima página-->segunda página</a></p>
+    <p>Você também pode acessar a nossa <a href="Noticias/pag003.html" rel="next" target="_self">página de notícias</a></p> <!--Para selecionar a pasta correta e não causar nenhum erro no site, basta apertar crtl + espaço e escolher as pastas que o próprio visual studio code ti dá como opção e depois informar o caminho que está dentro da pasta-->
+    
+    <h1>Links para Download</h1>
+    <ul> <!--Enquanto vc ainda está criando o corpo do site e não tiver colocado nada dentro do href, pode se colocar uma # dentro das aspas.-->
+        <li><a href="Livros/EBOOK DE EXEMPLO.pdf" download="EBOOK DE EXEMPLO.pdf" type="application/pdf">Baixar livro em PDF</a></li>
+        <li><a href="Livros/EBOOK DE EXEMPLO.zip" download="EBOOK DE EXEMPLO.zip" type="application/zip">Livro compactado em ZIP</a></li>
+    </ul>
+</body>
+</html>

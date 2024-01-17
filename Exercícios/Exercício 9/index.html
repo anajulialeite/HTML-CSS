@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>listas</title>
+</head>
+<body>
+    <h1>Trabalhando com Listas</h1>
+        <h2>Listas Ordenadas</h2>
+        <ol type="" start=""> <!--Se eu quiser que a minha lista seja enumerada ou por ordem alfabética (letras maiúsculas ou minúsculas ou número romanos (manúsculas ou minúsculas) e se eu quser que ele comça a contar de algum número que não seja o 1, basta colocar qualquer outro número dentro das aspas do star.--> 
+            <!--Com o HTML5 não temos mais a obrigação de chegar a tag, o </li> ficou opcional, se eu quiser optar por não usar está tranquilo, a tag vai continuar funcionando, como dei exemplo do primeiro ítem da nossa lista "vou acordar", lembrando que é errado fazer isso, se não fechar, tem que continuar em todas da lista sem fechar.-->
+            <Li>Vou acordar
+            <li>Escovar os dentes</li>
+            <li>Tomar café</li>    
+            <li>Cuidar dos gatos</li>  
+            <li>Arrumar meu quarto</li>
+            <li>Jogar o lixo fora</li>
+            <li>Pagar contas</li>
+            <li>Falar com Eduardo</li>
+            <li>Falar com Elizan</li>
+            <li>Fazer compras</li>
+            <li>Estudar</li>
+            <li>Tomar banho</li>
+            <li>Jantar</li>
+            <li>Assistir seriado</li>
+            <li>Jogar</li>
+            <li>Dormir</li>
+        </ol> <!--Lista ordenada-->
+        <h2>Listas não ordenadas</h2>
+        <ul type="square"> <!--Temos a opção circle, disc (este é o padrão), square. Da msm forma eu posso usar </li> ou não.-->
+            <li>Temos que comprar: pão</li>
+            <li>Leite</li>
+            <li>Tomate</li>
+            <li>Manteiga</li>
+            <li>Arroz</li>
+            <li>Feijão</li>
+        </ul>
+        <h2>Minhas linguagens favoritas</h2>
+        <ol> <!--Lista não ordenada-->
+            <li>Antigas</li>
+            <ol type="a">
+                <li>Clipper</li>
+                <li>Visual Basic</li>
+                <li>Fortran</li>
+                <li>Delphi</li>
+            </ol>
+            <li>Novas</li>
+            <ol type="a" start="5"> <!--Se eu quiser que a lista seja antiga: a, b, c, d, eu tenho que mudar para a opção de letras. Se eu quero que a lista de antigas seja sequencial a lista de novas, eu uso o start e conto do 5 para ele continuar a lista, pois o start só funciona para números, ele não vai reconhecer se colocar qualquer letra da sequência. O ideal é cada uma ter a sua sequência: a, b, c, d / a, b, c, d.-->
+                <li>PHP</li>
+                <li>Python</li>
+                <li>JavaScript</li>
+                <li>Kotlin</li>
+                </ol>
+            </ol> <!--Fecha tag, a barra na frente do código significa que está fechando uma tag que foi iniciada-->
+            <h2>Meus jogos favoritos</h2>
+            <ol> <!--Abre tah-->
+                <li>Sega</li>
+                <ul type="square">
+                    <li>Sonic</li>
+                    <li>Zumbie</li>
+                    <li>Home Alone</li>
+                    <li>Mortal Kombat</li>
+                    <li>Streat fight</li>
+                </ul>
+                    <li>Aurelinho</li>
+                    <li>Jogo da bruxinha</li>
+                    <li>CS</li>   
+                    <li>The Sims</li>
+                <ul type="circle">
+                    <li>The Sims 1</li>
+                    <li>The Sims delux</li>
+                    <li>The Sims em um passe de mágica</li>
+                    <li>The Sims 1 pacote completo do 1 ao 8</li>
+                    <li>The Sims 2</li>
+                    <li>The Simis 4</li>
+                </ul>
+                    <li>Guitar Hero</li>
+                    <li>Habbo</li>
+                    <li>TownShip</li>
+                    <li>Ludo</li>
+                </ol> 
+            </ol>
+            <h2>Lista de definição</h2>
+            <dl> <!--Definição de lista (dicionário)-->
+                <dt>HTML</dt> <!--Termo-->
+                <dd>Linguagem de marcação para a criação do conteúdo de um site.</dd> <!--Descrição-->
+                <dt>CSS</dt>
+                <dd>Linguagem de marcação para a criação de desingne de um site.</dd>
+                <dt>JavaScript</dt>
+                <dd>Linguagem de programação para a criação de interatividade de um site</dd>
+            </dl>
+    </body>
+</html>

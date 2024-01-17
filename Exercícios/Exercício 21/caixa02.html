@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags Semânticas</title>
+    <style>
+        body{
+            font-family: cursive;
+            background-color: #FF9469;
+            margin: 0px;  
+        }
+        
+        header{
+            width: 600px;
+            background-color: #93FFB7;
+            color: yellow;
+            padding: 10px;
+            margin: 10px;
+        }
+
+        h1{
+            box-shadow: inset 2px 1px 14px 6px #ff025b18; /*O inset serve para colocar a sombra pra dentro, se tirar fica para fora*/
+        }
+
+        nav{
+            background-color: #FF7AA9;
+            padding: 3px;
+            box-shadow: 5px 3px 7px 1px #ff025b71; /*Trabalahndo com sombras*/
+        }
+
+        nav > a{
+            text-decoration: none;
+            color: #93FFB7;
+            font-weight: bold;
+            margin-right: 30px;
+        }
+
+        nav > a:hover{
+            text-decoration: underline;
+            
+            
+        }
+
+        main{
+            background-color: #93FFB7;
+            color: yellow;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 25px; /*10px 20px 30px 40px - Podemos tbm colocar uma medida diferente para cada borda para comparar os tamanhos e escolher qual melhor fica no designe do projeto. também podemos colocar tamanhos duplos, exemplo: 30px 40px /*Raio da borda, não o diacho da borda e sim o arredondamento da borda! rs*/
+            box-shadow: 5px 3px 0px 1px #00ff5567;
+        }
+
+        article{
+            background-color: #88AAFF;
+            padding: 5px;
+        }
+
+        article > aside{
+            background-color: #6d95fa
+        }
+
+        footer{
+            background-color: white;
+            color: green;
+            font-weight: bold;
+            text-align: center;
+            padding: 4px;
+            margin: 0px;
+        }
+
+        footer > p{
+            margin: 0px;
+        }
+
+        div#bola{
+            height: 100px;
+            width: 100px;
+            margin: 10px;
+            background-color: #FFCC73;
+            border-radius: 50%; /*Nós podemos tbm utilizar a numeração em porcentagem*/
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu Site</h1>
+        <!--Essas tags elas podem ser organizadas do jeito que eu quiser, elas foram feitas para ser mexidas e encaixadas da forma que eu achar melhor, essa foi a forma do Guanabara, mas eu posso criar a minha.-->
+        <nav>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+        </nav>
+    </header>
+    <main>
+        <section id="assuntos">
+
+        </section>
+        <section id="notícias">
+            <article>
+                <h2>Notícia sobre o Brasil</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero tempora, pariatur modi ad, voluptas explicabo, sint error eos totam doloribus a autem consequuntur alias dolores incidunt sed sequi quam quibusdam.</p>
+                <aside>
+                    <p>Artigo escrito por José da Silva</p>
+                </aside>
+                    <p>Esportes Política Tecnologia</p>
+            </article>
+            <article>
+
+            </article>
+        </section>
+    </main>
+    <footer>
+        <p>Desenvolvido pelo Curso em Vídeo</p>
+    </footer>
+    <div id="bola"></div>
+</body>
+</html>

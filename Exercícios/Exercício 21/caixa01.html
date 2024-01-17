@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modelo de caixas</title>
+    <!--Para abrir o DEVTools basta clicar com o botão direito no arquivo HTML da pasta de exercício e clicar em inspecionar-->
+    <style>
+
+        body{
+            background-color: violet;
+        }
+        
+        h1{ /*box-level*/
+            
+            /*display: inline;*/
+            background-color: rgb(204, 16, 204);
+            font-family: cursive;
+            font-weight: bolder;
+            font-size: 35px;
+            height: 300px;
+            width: 300px;
+            
+            /*border-width: 10px;
+            border-style: solid;
+            border-color: rgb(102, 0, 102);
+            substituindo todas essas 3 linhas por uma linha só, que fica a msm coisa, sempre mantendo a ordem de preferência de configuração, essa configuração reduzida se chama Short hand*/
+
+            border: 10px solid rgb(102, 0, 102);
+
+            padding: 10px; /*Na msm ordem do relógio, em cima, direita, em baixo, esquerda, se todos os números forem iguais, basta declarar uma vez só, mas se tiver dois diferente aí tem que declarar as duas posições, daí ele vai entender que duas medidas é esquera e direita e a outra é para cima e baixo, exemplo: 10px 20px;*/
+
+            /*margin: auto; para deixar a caixa no meio*/
+            margin: 20px auto 50px auto;
+
+            outline: 12px outset rgb(138, 0, 85);
+        }
+
+        a{ /*inline-level*/
+            
+            display: inline-block; /*ou simplesmente block*/
+            background-color: rgb(214, 119, 255);
+            border-width: 10px;
+            border-style: groove;
+            border-color: darkviolet;
+
+            padding-top: 10px;
+            padding-right: 10px;
+            padding-bottom: 10px;
+            padding-left: 10px;
+        }
+
+        p{
+            color: indigo;
+            font-family: cursive;
+            font-weight: bold;
+        }
+
+        .especial{
+            color: indigo;
+            font-family: cursive;
+            font-weight: bolder;
+        }
+    </style>
+</head>
+<body>
+    <h1>Exemplo de caixa box-level</h1>
+    <p>Parágrafos tbm são exemplos de box-level, mas os <a href="#" target="_blank" class="especial">Links são exemplos de caixar inline-level</a> Vamos ver como tudo isso funciona.</p> 
+</body>
+</html>

@@ -1,0 +1,40 @@
+@charset "UTF-8";
+
+body{
+    background-color: rgb(247, 185, 218);
+    font-family: cursive;   
+}
+
+h1{
+    color: rgb(255, 0, 136);
+    background-color: rgb(75, 0, 110);
+    text-align: center;
+}
+
+/*Posso colocar h1#principal ou só #principal, eu gosto de colocar com h1, pois pra quem está começando a entender a linguagem de marcação não ficar perdido. Tudo que é id (único) em HTML, no CSS vira #. Tudo que for CLASS (multiplos) em HTML, no CSS vira ponto (.)*/
+h1#principal {
+    text-align: center;
+    background-color: rgb(145, 0, 113);
+}
+
+h2{
+    color: rgb(207, 0, 104);
+    
+    
+}
+
+.basico{
+    color: rgb(32, 138, 11);
+}
+
+.intermediario{
+    color: rgb(255, 238, 0);
+}
+
+.avancado{
+    color: rgb(161, 0, 0);
+}
+
+.destaque{
+    background-color:rgb(75, 0, 110);
+}

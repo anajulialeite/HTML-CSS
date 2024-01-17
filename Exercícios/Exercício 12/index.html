@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Usando o favicon-->
+    <link rel="shortcut icon" href="favicon/favicon_io/favicon.ico" type="image/x-icon">
+    <title>Vídeos com HTML</title>
+    <h1>Utilizando imagem de praia e uma boa música para relaxar</h1>
+    <picture>
+       <img src="imagem/ocean.jpg" alt="image/jpg">
+       <audio src="audio/Biollionaire.mp3" autoplay controls loop></audio>
+    </picture>
+</head>
+<body>
+    <!--O vídeo inserido nesta aula foi baixado do site pexels-->
+    <h1>Inserindo videos hospedados localmente</h1>
+    <p>Este vídeo está hospedado no meu próprio servidor</p>
+    <video src="video/Beachsunset(reduzido).mp4" width="560" autoplay controls loop></video>
+    <style>
+        body{
+            background-color: coral;
+        }
+    </style>
+    <!--Para inserir vídeos do youtube no seu site, basta procurar o video e clicar nele, depois apertar em compartilhar e incorporar. Lá já tem o código em HTML certinho basta clicar em copiar e colocar no visual studio code-->
+    <h1>Inserindo vídeos do youtube</h1>
+    <!--em width e height vc pode ajudar a altura e largura para vc configurar a tela de vídeo no seu site, repare que coloquei os dois vídos, importados e exportados com o msm tamanho.-->
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/gy3LAZn1Kl0?si=H98fwE2WTBwF7b9I" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    <!--Quando vc insere vídeos do youtube no site o seu cliente não vai perder dados como no vídeo que eu baixei do pexels, ele perde dados para o próprio youtube, economizando dados do seu site-->
+</body>
+</html>
