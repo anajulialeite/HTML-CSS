@@ -112,8 +112,8 @@ main h1{
     font-family: var(--fonte-android);
     font-weight: normal;
     font-size: 1.8em;
-
 }
+
 main h2{
     font-family: var(--fonte-android);
     color: var(--cor2);
@@ -208,7 +208,6 @@ aside > ul{
   list-style-type: '✅';
   list-style-position: inside;
   columns: 2;
-
 }
 
 footer{
