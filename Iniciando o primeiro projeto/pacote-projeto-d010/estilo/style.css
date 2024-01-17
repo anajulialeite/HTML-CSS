@@ -195,6 +195,8 @@ aside{
 }
 
 aside h3{
+  font-family: var(--fonte-android);
+  font-weight: normal;
   background-color: var(--cor4);
   color: var(--cor0);
   padding: 10px;
