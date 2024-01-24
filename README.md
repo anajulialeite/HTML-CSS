@@ -33,8 +33,6 @@
 
 <a href= "https://anajulialeite.github.io/HTML-CSS/Exercícios/Exercício 13/index.html">Executar o exercício 13</a>
 
-<a href= "https://anajulialeite.github.io/HTML-CSS/Exercícios/Exercício 13/pag002.html">Executar o exercício 13.1</a>
-
 <a href= "https://anajulialeite.github.io/HTML-CSS/Exercícios/Exercício 14/index.html">Executar o exercício 14</a>
 
 <a href= "https://anajulialeite.github.io/HTML-CSS/Exercícios/Exercício 15/index.html">Executar o exercício 15</a>
