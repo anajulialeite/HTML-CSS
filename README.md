@@ -1,5 +1,6 @@
 # HTML-CSS
- Curso de HTML5 e CSS3  do CursoemVideo
+ Todos estes exercícios correspondem ao capítulo 1 e 2 do 
+ Curso de HTML5 e CSS3, CursoemVideo
 
  Estou aprendendo a criar sites e agora vou gerenciar meus repositórios!
 
