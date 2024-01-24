@@ -1,0 +1,108 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Itim&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+
+:root{
+    --fonte1: Verdana, 'Geneva', Tahoma, sans-serif;
+    --fonte2: 'Itim', 'cursive';
+    --fonte3: 'Sriracha', 'cursive';
+}
+
+/*Configuração geral*/
+*{
+    margin: 0px;
+    padding: 0px;
+    font-size: 1em;
+}
+
+html, body{
+    min-height: 100%; /*100% ou 100vh, fica a critório do criador do site*/
+    background-color: rgb(128, 85, 0);
+    font-family: var(--fonte1);
+}
+
+header{
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+header > h1{
+    padding-top: 50px;
+    /*Trandformando letras mnúsculas em maúsculas: text-transform: uppercase; ou a que foi usada no site:*/
+    font-variant: small-caps;
+    font-family: var(--fonte2);
+    font-size: 4em;
+}
+
+header > p{
+    padding-bottom: 50px;
+
+}
+
+/*Essa configuração serve para colocar mais links dentro so dexto, neste caso não precisa, pois usaremos só oq já colocamos*/
+header a, footer a{
+    color: rgb(128, 85, 0);
+    text-decoration: underline;
+    font-weight: bolder;
+}
+
+/*Essa configuração serve para colocar mais links dentro so dexto, neste caso não precisa, pois usaremos só oq já colocamos*/
+header a:hover, footer a:hover{
+    color: white;
+    text-decoration: underline;
+}
+
+/*Esse vai servir tanto para o normal quanto para a imagem*/
+section{
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    line-height: 2em;
+    padding-left: 30px;
+    font-family: var(--fonte3);
+    font-size: 2em;
+}
+
+section > p{
+    padding-bottom: 2em;
+}
+
+/*o ponto significa a classe*/
+section.normal{
+    background-color: black;
+    background-color: white;
+}
+
+section.imagem{
+    background-color: rgba(128, 85, 0, 0);
+    color: white;
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.514);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+section.imagem > p{
+    display: inline-block;
+    padding: 5px;
+    background-color: rgba(0, 0, 0, 0.253);
+    text-shadow: 1px 1px 0px black;  
+}
+
+section#img01{
+    background-image: url('..//imagens/background001.jpg');
+    background-position: right center;
+}
+
+section#img02{
+    background-image: url('..//imagens/background002.jpg');
+    background-position: right center;
+}
+
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
