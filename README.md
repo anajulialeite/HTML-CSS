@@ -47,7 +47,7 @@
 
 <a href= "https://anajulialeite.github.io/HTML-CSS/Exercícios/Exercício 16/cor04.html">Executar o exercício 16.3</a>
 
-<a href= "https://anajulialeite.github.io/HTML-CSS/Exercícios/Exercício 17/index.html">Executar o exercício 17</a>
+<a href= "https://anajulialeite.github.io/HTML-CSS/Exercícios/Exercício 17/fonte01.html">Executar o exercício 17</a>
 
 <a href= "https://anajulialeite.github.io/HTML-CSS/Exercícios/Exercício 17/fonte02.html">Executar o exercício 17.1</a>
 
