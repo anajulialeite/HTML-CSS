@@ -3,27 +3,27 @@
 
  Estou aprendendo a criar sites e agora vou gerenciar meus repositórios!
 
- <a href= "https://anajulialeite.github.io/html-css/Exercícios/Exercício 1/index.html">Executar o exercício 1</a>
+ <a href= "https://anajulialeite.github.io/HTML-CSS/Exercícios/Exercício 1/index.html">Executar o exercício 1</a>
 
- <a href= "https://anajulialeite.github.io/html-css/Exercícios/Exercício 2/index.html">Executar o exercício 2</a>
+ <a href= "https://anajulialeite.github.io/HTML-CSS/Exercícios/Exercício 2/index.html">Executar o exercício 2</a>
 
- <a href= "https://anajulialeite.github.io/html-css/Exercícios/Exercício 3/index.html">Executar o exercício 3</a>
+ <a href= "https://anajulialeite.github.io/HTML-CSS/Exercícios/Exercício 3/index.html">Executar o exercício 3</a>
 
- <a href= "https://anajulialeite.github.io/html-css/Exercícios/Exercício 4/index.html">Executar o exercício 4</a>
+ <a href= "https://anajulialeite.github.io/HTML-CSS/Exercícios/Exercício 4/index.html">Executar o exercício 4</a>
 
- <a href= "https://anajulialeite.github.io/html-css/Exercícios/Exercício 5/index.html">Executar o exercício 5</a>
+ <a href= "https://anajulialeite.github.io/HTML-CSS/Exercícios/Exercício 5/index.html">Executar o exercício 5</a>
 
- <a href= "https://anajulialeite.github.io/html-css/Exercícios/Exercício 6/index.html">Executar o exercício 6</a>
+ <a href= "https://anajulialeite.github.io/HTML-CSS/Exercícios/Exercício 6/index.html">Executar o exercício 6</a>
 
- <a href= "https://anajulialeite.github.io/html-css/Exercícios/Exercício 7/index.html">Executar o exercício 7</a>
+ <a href= "https://anajulialeite.github.io/HTML-CSS/Exercícios/Exercício 7/index.html">Executar o exercício 7</a>
 
- <a href= "https://anajulialeite.github.io/html-css/Exercícios/Exercício 8/index.html">Executar o exercício 8</a>
+ <a href= "https://anajulialeite.github.io/HTML-CSS/Exercícios/Exercício 8/index.html">Executar o exercício 8</a>
 
  <a href= "https://anajulialeite.github.io/HTML-CSS/Exercícios/Exercício 8.1/index.html">Executar o exercício 8.1</a>
 
-<a href= "https://anajulialeite.github.io/html-css/Exercícios/Exercício 9/index.html">Executar o exercício 9</a>
+<a href= "https://anajulialeite.github.io/HTML-CSS/Exercícios/Exercício 9/index.html">Executar o exercício 9</a>
 
-<a href= "https://anajulialeite.github.io/html-css/Exercícios/Exercício 10/index.html">Executar o exercício 10</a>
+<a href= "https://anajulialeite.github.io/HTML-CSS/Exercícios/Exercício 10/index.html">Executar o exercício 10</a>
 
 <a href= "https://anajulialeite.github.io/HTML-CSS/Exercícios/Exercício 10/pag002.html">Executar o exercício 10.1</a>
 
