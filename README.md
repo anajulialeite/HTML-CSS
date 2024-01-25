@@ -80,4 +80,4 @@
 
 <a href= "https://anajulialeite.github.io/HTML-CSS/Exercícios/Exercício 22/fundo006.html">Executar o exercício 22.5</a>
 
-<a href= "https://anajulialeite.github.io/HTML-CSS/Exercícios/Exercício 22/Fundo007.html">Executar o exercício 22.6</a>
+<a href= "https://anajulialeite.github.io/HTML-CSS/Exercícios/Exercício 23/tabela001.html">Executar o exercício 23</a>
