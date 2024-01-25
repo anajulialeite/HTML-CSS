@@ -58,7 +58,7 @@
 
 <a href= "https://anajulialeite.github.io/HTML-CSS/Exercícios/Exercício 19/seletor01.html">Executar o exercício 19</a>
 
-<a href= "https://anajulialeite.github.io/HTML-CSS/Exercícios/Exercício 20/houver.html">Executar o exercício 20</a>
+<a href= "https://anajulialeite.github.io/HTML-CSS/Exercícios/Exercício 20/hover.html">Executar o exercício 20</a>
 
 <a href= "https://anajulialeite.github.io/HTML-CSS/Exercícios/Exercício 20/links.html">Executar o exercício 20.1</a>
 
