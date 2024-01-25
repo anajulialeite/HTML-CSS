@@ -1,5 +1,5 @@
 # HTML-CSS
- Todos estes exercícios correspondem ao Módulo 1 e 2 do 
+ Todos estes exercícios correspondem ao Módulo 1, 2 e 3 do 
  Curso de HTML5 e CSS3, CursoemVideo
 
  Estou aprendendo a criar sites e agora vou gerenciar meus repositórios!
