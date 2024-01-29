@@ -30,9 +30,13 @@
 
 <a href= "https://anajulialeite.github.io/HTML-CSS/Exercícios/Exercício 11/index.html">Executar o exercício 11</a>
 
+<a href= "https://anajulialeite.github.io/HTML-CSS/HTML-CSS/Desafio/Desafio 005/Desafio005.html">Executar o exercício Desafio 005</a>
+
 <a href= "https://anajulialeite.github.io/HTML-CSS/Exercícios/Exercício 12/index.html">Executar o exercício 12</a>
 
 <a href= "https://anajulialeite.github.io/HTML-CSS/Exercícios/Exercício 13/index.html">Executar o exercício 13</a>
+
+<a href= "https://anajulialeite.github.io/HTML-CSS/Desafio/Desafio 006/index.html">Executar o exercício Desafio 006</a>
 
 <a href= "https://anajulialeite.github.io/HTML-CSS/Exercícios/Exercício 14/index.html">Executar o exercício 14</a>
 
@@ -85,3 +89,15 @@
 <a href= "https://anajulialeite.github.io/HTML-CSS/Exercícios/Exercício 23/tabela001.html">Executar o exercício 23</a>
 
 <a href= "https://anajulialeite.github.io/HTML-CSS/Exercícios/Exercício 23/tabela002.html">Executar o exercício 23.1</a>
+
+<a href= "https://anajulialeite.github.io/HTML-CSS/Exercícios/Exercício 23/tabela003.html">Executar o exercício 23.2</a>
+
+<a href= "https://anajulialeite.github.io/HTML-CSS/Exercícios/Exercício 23/tabela004.html">Executar o exercício 23.3</a>
+
+<a href= "https://anajulialeite.github.io/HTML-CSS/Exercícios/Exercício 23/tabela005.html">Executar o exercício 23.4</a>
+
+<a href= "https://anajulialeite.github.io/HTML-CSS/Exercícios/Exercício 23/tabela006.html">Executar o exercício 23.5</a>
+
+<a href= "https://anajulialeite.github.io/HTML-CSS/Exercícios/Exercício 23/Desafio.html">Executar o exercício 23.4</a>
+
+<a href= "https://anajulialeite.github.io/HTML-CSS/Exercícios/Exercício 23/Desafio01.html">Executar o exercício 23.5</a>
