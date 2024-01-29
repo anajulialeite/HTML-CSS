@@ -101,3 +101,5 @@
 <a href= "https://anajulialeite.github.io/HTML-CSS/Exercícios/Exercício 23/Desafio.html">Executar o exercício 23.6</a>
 
 <a href= "https://anajulialeite.github.io/HTML-CSS/Exercícios/Exercício 23/Desafio01.html">Executar o exercício 23.7</a>
+
+<a href= "https://anajulialeite.github.io/HTML-CSS/Exercícios/Exercício 24/iframe001.html">Executar o exercício 24</a>
