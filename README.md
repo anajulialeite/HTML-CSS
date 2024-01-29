@@ -94,7 +94,7 @@
 
 <a href= "https://anajulialeite.github.io/HTML-CSS/Exercícios/Exercício 23/tabela004.html">Executar o exercício 23.3</a>
 
-<a href= "https://anajulialeite.github.io/HTML-CSS/Exercícios/Exercício 23/tabela005.html">Executar o exercício 23.4</a>
+<a href= "https://anajulialeite.github.io/HTML-CSS/Exercícios/Exercício 23/Tabela005.html">Executar o exercício 23.4</a>
 
 <a href= "https://anajulialeite.github.io/HTML-CSS/Exercícios/Exercício 23/tabela006.html">Executar o exercício 23.5</a>
 
