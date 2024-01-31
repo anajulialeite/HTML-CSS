@@ -112,6 +112,8 @@
 
 <a href= "https://anajulialeite.github.io/HTML-CSS/Exercícios/Exercício 24/iframe005.html">Executar o exercício 24.4</a>
 
+<a href= "https://anajulialeite.github.io/HTML-CSS/Exercícios/Exercício 24/iframe006.html">Executar o exercício 24.5</a>
+
 <a href= "https://anajulialeite.github.io/HTML-CSS/Exercícios/Exercício 24/Páginas extras/Página001.html">Executar o exercício 24.1</a>
 
 <a href= "https://anajulialeite.github.io/HTML-CSS/Exercícios/Exercício 24/Páginas extras/Página002.html">Executar o exercício 24.2</a>
@@ -121,5 +123,3 @@
 <a href= "https://anajulialeite.github.io/HTML-CSS/Exercícios/Exercício 24/Páginas extras/Página004.html">Executar o exercício 24.4</a>
 
 <a href= "https://anajulialeite.github.io/HTML-CSS/Exercícios/Exercício 24/Páginas extras/Página005.html">Executar o exercício 24.5</a>
-
-<a href= "https://anajulialeite.github.io/HTML-CSS/Exercícios/Exercício 24/Páginas extras/página006.html">Executar o exercício 24.6</a>
