@@ -108,8 +108,18 @@
 
 <a href= "https://anajulialeite.github.io/HTML-CSS/Exercícios/Exercício 24/iframe003.html">Executar o exercício 24.2</a>
 
-<a href= "https://anajulialeite.github.io/HTML-CSS/Exercícios/Exercício 24/Páginas extras/Página001.html">Executar o exercício 24.3</a>
+<a href= "https://anajulialeite.github.io/HTML-CSS/Exercícios/Exercício 24/iframe004.html">Executar o exercício 24.3</a>
 
-<a href= "https://anajulialeite.github.io/HTML-CSS/Exercícios/Exercício 24/Páginas extras/Página002.html">Executar o exercício 24.4</a>
+<a href= "https://anajulialeite.github.io/HTML-CSS/Exercícios/Exercício 24/iframe005.html">Executar o exercício 24.4</a>
 
-<a href= "https://anajulialeite.github.io/HTML-CSS/Exercícios/Exercício 24/Páginas extras/página003.html">Executar o exercício 24.5</a>
+<a href= "https://anajulialeite.github.io/HTML-CSS/Exercícios/Exercício 24/Páginas extras/Página001.html">Executar o exercício 24.1</a>
+
+<a href= "https://anajulialeite.github.io/HTML-CSS/Exercícios/Exercício 24/Páginas extras/Página002.html">Executar o exercício 24.2</a>
+
+<a href= "https://anajulialeite.github.io/HTML-CSS/Exercícios/Exercício 24/Páginas extras/página003.html">Executar o exercício 24.3</a>
+
+<a href= "https://anajulialeite.github.io/HTML-CSS/Exercícios/Exercício 24/Páginas extras/página004.html">Executar o exercício 24.4</a>
+
+<a href= "https://anajulialeite.github.io/HTML-CSS/Exercícios/Exercício 24/Páginas extras/página005.html">Executar o exercício 24.5</a>
+
+<a href= "https://anajulialeite.github.io/HTML-CSS/Exercícios/Exercício 24/Páginas extras/página006.html">Executar o exercício 24.6</a>
