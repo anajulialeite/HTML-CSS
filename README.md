@@ -124,7 +124,7 @@
 
 <a href= "https://anajulialeite.github.io/HTML-CSS/Exercícios/Exercício 24/Páginas extras/Página005.html">Executar o exercício 24.5</a>
 
-<img src="Imagem/mascote.png" float="right" width="300">
+<img src="Imagem/mascote.png" text-align="right" width="300">
 
 # Curso de HTML5 e CSS3
 
