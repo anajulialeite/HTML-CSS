@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Teste de formulário</h1>
+    <form action="Cadastro.php" method="post" autocomplete="on"> <!--Podemos usar div ou p, como estamos começando e o espaçamento é melhor eu vou usar o p. Auto complete pra ligar ou desligar o preenchimento automático, se n colocar nada ele  liga automático. -->
+        <p>
+            <label for="iusu">Usuário: </label>
+            <input type="text" name="usu" id="iusu" required minlength="5" maxlength="15" size="" placeholder="Seu nome" autocomplete="username">
+            <!--Required é requerido ou obrigatório minlength é o mínimo de letras e maxlength é o máximo. O size serve para aumentar ou diminuir o tamanho da caixa e pode ser usada em quantas caixas eu quiser. Placeholder é o auxiliar de preenximento, um indicativo do que eu devo fazer-->
+        </p>
+        <p>
+            <label for="isen">Senha: </label>
+            <input type="password" name="sen" id="isen" required minlength="8" maxlength="20" placeholder="Mínimo 8 dígitos" autocomplete="current-password"> <!--input:password, para o uso de senhas, current-password é a senha atual-->
+        </p>
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+        </p>
+    </form>
+</body>
+</html>

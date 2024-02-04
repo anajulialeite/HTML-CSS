@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+    <style>
+        *{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+    </style>
+</head>
+<body>
+    <h1>Meu primeiro formulário</h1>
+    <form action="cadastro.php" method="get">
+        <!--Para tirar o complemento automático basta usar autocomplete="off" dentro da tag form-->
+        <!--O action serve para enviar os dados para algum lugar e o submit faz o resto do trabalho-->
+        <p><label for="inome">Nome:</label>
+            <input type="text" name="nome" id="inome"></p> <!--O nome ele é mais  importante para o html e php e o id é mais importante para o javascript e para o uso do label-->
+        <p><label for="isobrenome">Sobrenome:</label>
+            <input type="text" name="sobrenome" id="isobrenome"> </p>
+        <p><input type="submit" value="Enviar"></p>
+        <!--Existem dois tipos de métodos, que são métodos simples para envio de formulário, 1° é esse que já fiz logo a cima e o segundo é o método get é o que coloca os dados na URL e só envia 3 mil bytes, ele não envia arquivos. 
+        O método post não coloca nada na URL e é usado para esconder senha, dados bancários, dados mais importantes e uso de HTTPS. Ele aceita mais de 3 mil bytes e aceita envio de arquivos, ambos tem a msm velocidade.-->
+        <!--No futuro eu preciso aprender mais sobre HTTPS para proteger dados-->
+    </form>
+</body>
+</html>
