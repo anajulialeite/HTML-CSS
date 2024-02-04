@@ -124,6 +124,14 @@
 
 <a href= "https://anajulialeite.github.io/HTML-CSS/Exercícios/Exercício 24/Páginas extras/Página005.html">Executar o exercício 24.5</a>
 
+<a href= "https://anajulialeite.github.io/HTML-CSS/Exercícios/Exercício 25/Cadastro.php">Executar o exercício 25</a>
+
+<a href= "https://anajulialeite.github.io/HTML-CSS/Exercícios/Exercício 25/Form001.html">Executar o exercício 25.1</a>
+
+<a href= "https://anajulialeite.github.io/HTML-CSS/Exercícios/Exercício 25/Form002.html">Executar o exercício 25.2</a>
+
+<a href= "https://anajulialeite.github.io/HTML-CSS/Exercícios/Exercício 25/Form003.html">Executar o exercício 25.3</a>
+
 <img src="Imagem/mascote.png" align="right" width="300">
 
 # Curso de HTML5 e CSS3
