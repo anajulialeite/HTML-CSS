@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+</head>
+<body>
+    <h1>Teste de formulário</h1>
+    <form action="Cadastro.php" method="get" autocomplete="on">
+    <p>
+        <label for="inome">Nome: </label>
+        <input type="text" name="nome" id="inome" required maxlength="30" placeholder="Nome Completo" autocomplete="name" required>
+    </p>
+    <p>
+        <label for="imedia">Média: </label>
+        <input type="number" name="media" id="imedia" min="0" max="10" placeholder="0 a 10" step="0.1" required><!--Se eu colocar text ele aceita letras e números, se eu colocar number ele vai aceitar somente números. O step é pra dizer de quanto em quanto os números vão rodar.
+        Se eu usar o value="5", ele já aparece preenchido, se quiser mudar os valores é só mudar diretamente no site manualmente.-->
+    </p>
+    <p>
+        <label for="imes">Período Letivo</label>
+        <input type="month" name="mes" id="imes" value="2023-01">
+        <!--Tem como configurar o value no java script pra não ter que fazer na mão-->
+    </p>
+    <p>
+        <label for="idia">Dia da Prova</label>
+        <input type="date" nome="dia" id="idia" value="2024-02-04">
+    </p>
+    <p>
+        <label for="ihora">Horário da Prova</label>
+        <input type="time" name="hora" id="ihora">
+    </p>
+    <p>
+        <input type="submit" value="Enviar">
+        <input type="reset" value="Limpar">
+    </p>
+</form>
+</body>
+</html>
