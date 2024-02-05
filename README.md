@@ -140,6 +140,12 @@
 
 <a href= "https://anajulialeite.github.io/HTML-CSS/Exercícios/Exercício 25/Form007.html">Executar o exercício 25.7</a>
 
+<a href= "https://anajulialeite.github.io/HTML-CSS/Exercícios/Exercício 25/Form008.html">Executar o exercício 25.8</a>
+
+<a href= "https://anajulialeite.github.io/HTML-CSS/Exercícios/Exercício 25/Form009.html">Executar o exercício 25.9</a>
+
+<a href= "https://anajulialeite.github.io/HTML-CSS/Exercícios/Exercício 25/Form010.html">Executar o exercício 25.10</a>
+
 <img src="Imagem/mascote.png" align="right" width="300">
 
 # Curso de HTML5 e CSS3
