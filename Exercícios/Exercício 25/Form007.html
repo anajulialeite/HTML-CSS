@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+</head>
+<body>
+    <h1>Exemplo de formulário</h1>
+    <form action="Cadastro.php" method="post" autocomplete="on">
+        <p>
+            <label for="iest">Estado</label>
+            <select name="Estado" id="iest">
+                <option value="" selected>---Escolha---</option>
+                <option value="AC">Acre</option>
+                <option value="AL">Alagoas</option>
+                <option value="AP">Amapá</option>
+                <option value="AM">Amazonas</option>
+                <option value="BA">Bahia</option>
+                <option value="CE">Ceará</option>
+                <option value="DF">Distrito Federal</option>
+                <option value="ES">Espírito Santo</option>
+                <option value="GO">Goiás</option>
+                <option value="MA">Maranhão</option>
+                <option value="MT">Mato Grosso</option>
+                <option value="MS">Mato Grosso do Sul</option>
+                <option value="MG">Minas Geraes</option>
+                <option value="PA">Pará</option>
+                <option value="PB">Paraíba</option>
+                <option value="PR">Paraná</option>
+                <option value="PE">Pernambuco</option>
+                <option value="PI">Piauí</option>
+                <option value="RJ">Rio de Janeiro</option>
+                <option value="RN">Rio Grande do Norte</option>
+                <option value="RS">Rio Grande do Sul</option>
+                <option value="RO">Rondônia</option>
+                <option value="RR">Roraima</option>
+                <option value="SC">Santa Catarina</option>
+                <option value="SP">São Paulo</option>
+                <option value="SE">Sergipe</option>
+                <option value="TO">Tocantins</option>
+                <!--Posso também agrupar por região usando a tag optgroup label e definiir as regiões-->
+            </select>
+        </p>
+
+        <p>
+            <label for="iprof">Profissão: </label>
+            <input type="text" name="prof" id="iprof" list="lstprof">
+            <datalist id="lstprof">
+                <option value="ADV">Advogado</option>
+                <option value="Banc">Bancário</option>
+                <option value="Cont">Contador</option>
+                <option value="DEV">Desenvolvedor</option>
+                <option value="ENG">Engenheiro</option>
+                <option value="Fisio">Fisioterapeuta</option>
+                <option value="GRH">Gestor de Recursos Humanos</option>
+                <option value="Hidro">Hidrólogo</option>
+                <option value="PI">Investigador</option>
+                <option value="Jar">Jardineiro</option>
+                <option value="LI">Líder</option>
+                <option value="Med">Médico</option>
+                <option value="Ni">Nivelador</option>
+                <option value="OT">Operadores de Telemarketing</option>
+                <option value="Prof">Professor</option>
+                <option value="QI">Química</option>
+                <option value="RU">ruby full-stack developer</option>
+                <option value="SE">SEcretária</option>
+                <option value="TI">Técnico de TI</option>
+                <option value="UR">Urbanista</option>
+                <option value="VE">Vendedor</option>
+                <!--Se eu tirar o value vai aparecer o nome da profissão sem a abreviação-->
+            </datalist>
+        </p>
+        
+        <p>
+            <label for="imsg">Mensagem: </label> <br>
+            <textarea name="Msg" id="imsg" cols="30" rows="10" placeholder="Sua mensagem aqui!"></textarea>
+            <!--No momento em que o Gustavo Guanabara gravou o vídeo em 2020 o placeholder não funcionada, mas agora em 2023/2024 o placeholder funciona normalmente-->
+        </p>
+           
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+        </p>
+    </form>
+</body>
+</html>

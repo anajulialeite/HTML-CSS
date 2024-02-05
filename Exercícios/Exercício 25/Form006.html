@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+    <form action="Cadastro.php" method="post" autocomplete="on">
+    <p>
+        <label for="icor">Cor: </label>
+        <input type="color" name="cor" id="icor" value="#00ff00">
+    </p>
+
+    <p>
+        <label for="inivel">Nível de Satisfação: </label>
+        <input type="range" name="nivel" id="inivel" min="" max="" value="">
+        <!--mínimo e máximo é pra difinir da onde começa até onde que vai e o value é pra definir da onde eu querooo que começa-->
+    </p>
+
+    <p>
+        <label for="ifoto">Foto do perfil: </label>
+        <input type="file" name="Foto" id="ifoto">
+    <!--Quando for utilizar imagem tem que trocar o método get para post-->
+    </p>
+
+    <p>
+        <input type="submit" value="Enviar">
+        <input type="reset" value="Limpar">
+    </p>
+</form>
+</head>
+<body>
+    
+</body>
+</html>
