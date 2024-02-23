@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media Query</title>
+    <!--Essa forma de configurar só fica legal em projetos menores-->
+    <!--Posso utilizar tbm a msm configuração que usei na aula passada-->
+   <style>
+    /*Declarações Gerais*/
+    @media all {
+    *{
+        margin: 0px;
+        padding: 0px;
+        font-family: Arial, Helvetica, sans-serif;
+        }
+    }
+
+    html, body{
+        width: 100vw;
+        height: 100vh;
+        background-color: #233eff;
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+
+    h1{
+        color: yellow;
+        text-shadow: 2px 2px 0px rgba(255, 255, 0, 0.459);
+        padding: 10px;
+    }
+    
+    /*Declarações Retrato*/
+    @media screen and (orientation: portrait) {
+        body {
+            background-image: url(Imagens/cev-portrait.jpg);
+            background-position: center bottom;
+        }
+    }
+    
+    /*Declarações Paisagem*/
+    @media screen and (orientation: landscape) {
+        body {
+            background-image: url(Imagens/cev-landscape.jpg);
+            background-position: left bottom;
+        }
+    }
+   </style>
+</head>
+<body>
+    <h1>Mude a orientação do seu dispositivo</h1>
+</body>
+</html>
