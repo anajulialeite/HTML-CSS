@@ -1,5 +1,63 @@
 @charset "UTF-8";
 
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+
 body, html {
     background-color: rgb(129, 211, 207);
+}
+
+header {
+    background-color: lightseagreen;
+}
+
+header > h1 {
+    padding: 10px;
+    text-align: center;
+}
+
+menu {
+    display: block;
+}
+
+menu > ul {
+    list-style-type: none;
+}
+
+/*Pode ser usado apenas menu > a, mas pra ficar bem explicado, vou usar o caminho inteiro*/
+menu > ul > li > a {
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    text-align: center;
+    background-color: rgb(7, 95, 91);
+    color: white;
+    border-top: 2px solid black;
+}
+
+menu > ul > li > a:hover {
+    background-color: rgba(129, 211, 207, 0.767);
+}
+
+main {
+    width: 90vw;
+    background-color: white;
+    margin: auto;
+    margin-top: 10px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+article > h2 {
+    padding-bottom: 20px;
+}
+
+article > p {
+    text-align: justify;
+    margin-bottom: 20px;
+    text-indent: 20px;
+
 }

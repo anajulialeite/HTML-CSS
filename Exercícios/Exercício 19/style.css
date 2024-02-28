@@ -1,11 +1,11 @@
 @charset "UTF-8";
 
-body{
+body {
     background-color: rgb(247, 185, 218);
     font-family: cursive;   
 }
 
-h1{
+h1 {
     color: rgb(255, 0, 136);
     background-color: rgb(75, 0, 110);
     text-align: center;
@@ -17,24 +17,24 @@ h1#principal {
     background-color: rgb(145, 0, 113);
 }
 
-h2{
+h2 {
     color: rgb(207, 0, 104);
     
     
 }
 
-.basico{
+.basico {
     color: rgb(32, 138, 11);
 }
 
-.intermediario{
+.intermediario {
     color: rgb(255, 238, 0);
 }
 
-.avancado{
+.avancado {
     color: rgb(161, 0, 0);
 }
 
-.destaque{
+.destaque {
     background-color:rgb(75, 0, 110);
 }

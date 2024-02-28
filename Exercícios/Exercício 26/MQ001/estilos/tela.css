@@ -2,43 +2,43 @@
 
 /*Estilo para telas*/
 
-*{
+* {
     margin: 0px;
     padding: 0px;
 }
 
-html{
+html {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 1em;
 }
 
-header{
+header {
     background-color: rgb(129, 211, 207);
 }
 
-header > h1{
+header > h1 {
     text-align: center;
 }
 
-menu ul{
+menu ul {
     list-style-type: none;
     /*Utilizado para tirar a bolinha do li*/
     background-color: lightseagreen;
 }
 
-menu li{
+menu li {
     background-color: rgb(7, 95, 91);
     color: white;
     display: inline-block;
     padding: 10px;
 }
 
-article{
+article {
     width: 600px;
     display: block;
     margin: auto;
 }
 
-p{
+p {
     text-align: justify;
 }

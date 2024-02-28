@@ -2,26 +2,26 @@
 
 /*Estilo para impressoras*/
 
-*{
+* {
     margin: 10px;
     padding: 10px;
 }
 
-html{
+html {
     font-family: 'Courier New', Courier, monospace;
     font-size: 1.5em;
     line-height: 1.5em;
 }
 
-menu{
+menu {
     display: none;
     /*none é para tirar o menu da folha de impressão, na tela não alterou nada pq eu não mexi, mas na impressão eu alterei*/
 }
 
-article{
+article {
     width: 100%;
 }
 
-article::after{
+article::after {
     content: 'Esse artigo foi impresso através do site www.cursoemvideo.com';
 }
