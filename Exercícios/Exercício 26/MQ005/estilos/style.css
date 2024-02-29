@@ -19,8 +19,22 @@ header > h1 {
     text-align: center;
 }
 
-menu {
+span#burguer {
+    background-color: rgb(3, 46, 44);
+    color: white;
     display: block;
+    text-align: center;
+    padding: 10px;
+    cursor: pointer; /*Esse serve para mudar o cursos de seta para mãozinha*/
+}
+
+span#burguer:hover {
+    background-color: aqua;
+    color: black;
+}
+
+menu {
+    display: none;
 }
 
 menu > ul {
