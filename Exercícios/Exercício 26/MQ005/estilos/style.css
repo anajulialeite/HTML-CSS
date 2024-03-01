@@ -58,6 +58,7 @@ menu > ul > li > a:hover {
 
 main {
     width: 90vw;
+    max-width: 768px;
     background-color: white;
     margin: auto;
     margin-top: 10px;
