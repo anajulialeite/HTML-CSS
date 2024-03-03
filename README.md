@@ -156,6 +156,8 @@
 
 <a href= "https://anajulialeite.github.io/HTML-CSS/Exercícios/Exercício 26/MQ005/index.html">Executar o exercício 26.5</a>
 
+<a href= "https://anajulialeite.github.io/HTML-CSS/Exercícios/Exercício 27/index.html">Executar o exercício 27</a>
+
 <img src="Imagem/mascote.png" align="right" width="300">
 
 # Curso de HTML5 e CSS3
