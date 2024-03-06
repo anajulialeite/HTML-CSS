@@ -11,21 +11,20 @@
         }
         
         body {
-            /* Definindo um gradiente de altura igual à altura da tela */
-            min-height: 100vh;
             /* Gradiente de fundo */
             background-image: linear-gradient(to bottom, rgb(1, 107, 107), #03C6F5, #26CAE0, #05DDF5);
             /* Fixando o gradiente no background */
             background-attachment: fixed;
-            /* Removendo a repetição do gradiente */
-            background-repeat: no-repeat;
+            /* Definindo o tamanho do gradiente */
+            background-size: auto; /* Tamanho padrão */
+            background-repeat: no-repeat; /* Evitando a repetição do gradiente */
         }
         
         /* Media query para telas de celular */
         @media only screen and (max-width: 600px) {
             body {
-                /* Atualizando a altura do gradiente para a altura do conteúdo */
-                min-height: auto;
+                /* Atualizando o tamanho do gradiente para cobrir toda a tela */
+                background-size: 100% 100%;
             }
         }
     </style>
@@ -34,3 +33,4 @@
     <h1>Testando gradiente</h1>
 </body>
 </html>
+
