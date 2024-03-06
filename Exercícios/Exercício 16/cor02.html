@@ -3,31 +3,19 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--left da esquerda para a direita e to right da direita para a esquerda-->
+    <!--To top de cima para baixo e to bottom de baixo para cima-->
     <title>Gradiente em CSS</title>
+    <!--para fazer de cima para baixo precisa fazer uma configuração global ex: *{}-->
     <style>
-        * {
+        *{
             height: 100%;
-            margin: 0; /* Removendo margens padrão */
         }
-        
         body {
-            /* Gradiente de fundo */
             background-image: linear-gradient(to bottom, rgb(1, 107, 107), #03C6F5, #26CAE0, #05DDF5);
-            /* Fixando o gradiente no background */
             background-attachment: fixed;
-            /* Evitando a repetição do gradiente */
-            background-repeat: no-repeat;
-            /* Definindo o tamanho do gradiente */
-            background-size: 100% 100vh;
         }
         
-        /* Media query para telas de celular */
-        @media only screen and (max-width: 600px) {
-            body {
-                /* Atualizando o tamanho do gradiente para cobrir toda a tela */
-                background-size: cover;
-            }
-        }
     </style>
 </head>
 <body>
