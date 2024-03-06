@@ -7,22 +7,25 @@
     <style>
         * {
             height: 100%;
+            margin: 0; /* Removendo margens padrão */
         }
         
         body {
-            /* Definindo um tamanho grande para o gradiente, para evitar repetições */
-            background-size: cover;
+            /* Definindo um gradiente de altura igual à altura da tela */
+            min-height: 100vh;
             /* Gradiente de fundo */
             background-image: linear-gradient(to bottom, rgb(1, 107, 107), #03C6F5, #26CAE0, #05DDF5);
             /* Fixando o gradiente no background */
             background-attachment: fixed;
+            /* Removendo a repetição do gradiente */
+            background-repeat: no-repeat;
         }
         
         /* Media query para telas de celular */
         @media only screen and (max-width: 600px) {
             body {
-                /* Modificando o tamanho do gradiente para cobrir completamente o fundo */
-                background-size: 100% 100%;
+                /* Atualizando a altura do gradiente para a altura do conteúdo */
+                min-height: auto;
             }
         }
     </style>
