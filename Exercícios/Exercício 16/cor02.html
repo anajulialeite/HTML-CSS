@@ -10,14 +10,19 @@
         }
         
         body {
+            /* Definindo um tamanho grande para o gradiente, para evitar repetições */
+            background-size: cover;
+            /* Gradiente de fundo */
             background-image: linear-gradient(to bottom, rgb(1, 107, 107), #03C6F5, #26CAE0, #05DDF5);
+            /* Fixando o gradiente no background */
             background-attachment: fixed;
         }
         
         /* Media query para telas de celular */
         @media only screen and (max-width: 600px) {
             body {
-                background-image: linear-gradient(to bottom, rgb(107, 1, 1), #F50303, #E02626, #F50505);
+                /* Modificando o tamanho do gradiente para cobrir completamente o fundo */
+                background-size: 100% 100%;
             }
         }
     </style>
