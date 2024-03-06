@@ -3,19 +3,23 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!--left da esquerda para a direita e to right da direita para a esquerda-->
-    <!--To top de cima para baixo e to bottom de baixo para cima-->
     <title>Gradiente em CSS</title>
-    <!--para fazer de cima para baixo precisa fazer uma configuração global ex: *{}-->
     <style>
-        *{
+        * {
             height: 100%;
         }
+        
         body {
             background-image: linear-gradient(to bottom, rgb(1, 107, 107), #03C6F5, #26CAE0, #05DDF5);
             background-attachment: fixed;
         }
         
+        /* Media query para telas de celular */
+        @media only screen and (max-width: 600px) {
+            body {
+                background-image: linear-gradient(to bottom, rgb(107, 1, 1), #F50303, #E02626, #F50505);
+            }
+        }
     </style>
 </head>
 <body>
