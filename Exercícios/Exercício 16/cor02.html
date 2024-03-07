@@ -12,10 +12,18 @@
             height: 100%;
         }
         body {
-            /* Gradiente que se ajusta automaticamente ao tamanho da tela */
+            /* Gradiente ajustado para dispositivos móveis */
             background-image: linear-gradient(to bottom, rgb(1, 107, 107), #03C6F5, #26CAE0, #05DDF5);
             background-attachment: fixed;
-            background-size: cover; /* Ajusta o tamanho do gradiente para cobrir toda a tela */
+        }
+        
+        /* Media query para dispositivos maiores que telas de celular */
+        @media (min-width: 768px) {
+            body {
+                /* Gradiente ajustado para desktops e tablets */
+                background-image: linear-gradient(to bottom, rgb(1, 107, 107), #03C6F5, #26CAE0, #05DDF5);
+                background-attachment: fixed;
+            }
         }
     </style>
 </head>
