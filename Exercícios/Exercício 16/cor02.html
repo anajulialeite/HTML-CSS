@@ -3,33 +3,29 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!--left da esquerda para a direita e to right da direita para a esquerda-->
-    <!--To top de cima para baixo e to bottom de baixo para cima-->
     <title>Gradiente em CSS</title>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-    <!--para fazer de cima para baixo precisa fazer uma configuração global ex: *{}-->
+    <!-- Importe o CSS do Bootstrap -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <style>
+        /* Estilos adicionais que você deseja aplicar */
+        * {
+            height: 100%;
+        }
         body {
             background-image: linear-gradient(to bottom, rgb(1, 107, 107), #03C6F5, #26CAE0, #05DDF5);
             background-attachment: fixed;
-            min-height: 100vh; /* Define a altura mínima do corpo para ocupar toda a altura da viewport */
-            margin: 0; /* Remova as margens padrão do corpo */
-            display: flex; /* Use display flex para alinhar verticalmente o conteúdo */
-            justify-content: center; /* Alinhe o conteúdo horizontalmente */
-            align-items: center; /* Alinhe o conteúdo verticalmente */
-        }
-        
-        .content {
-            text-align: center; /* Centralize o conteúdo dentro do elemento .content */
         }
     </style>
 </head>
 <body>
-    <div class="container col-sm-6 col-12">
-        <div class="content col-sm-6 col-12">
-            <h1>Testando gradiente</h1>
-            <!-- Aqui você pode adicionar mais conteúdo conforme necessário -->
+    <div class="container-fluid"> <!-- Use container-fluid para ocupar toda a largura da tela -->
+        <div class="row">
+            <div class="col">
+                <h1>Testando gradiente</h1>
+            </div>
         </div>
     </div>
+    <!-- Importe o JavaScript do Bootstrap (opcional, dependendo dos componentes que você está usando) -->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </body>
 </html>
