@@ -3,39 +3,22 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--left da esquerda para a direita e to right da direita para a esquerda-->
+    <!--To top de cima para baixo e to bottom de baixo para cima-->
     <title>Gradiente em CSS</title>
-    <!-- Importe o CSS do Bootstrap -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <!--para fazer de cima para baixo precisa fazer uma configuração global ex: *{}-->
     <style>
-        /* Estilos adicionais que você deseja aplicar */
-        * {
+        *{
             height: 100%;
         }
         body {
-            /* Gradiente ajustado para dispositivos móveis */
             background-image: linear-gradient(to bottom, rgb(1, 107, 107), #03C6F5, #26CAE0, #05DDF5);
             background-attachment: fixed;
         }
         
-        /* Media query para dispositivos maiores que telas de celular */
-        @media (min-width: 2400px) {
-            body {
-                /* Gradiente ajustado para desktops e tablets */
-                background-image: linear-gradient(to bottom, rgb(1, 107, 107), #03C6F5, #26CAE0, #05DDF5);
-                background-attachment: fixed;
-            }
-        }
     </style>
 </head>
 <body>
-    <div class="container-fluid"> <!-- Use container-fluid para ocupar toda a largura da tela -->
-        <div class="row">
-            <div class="col">
-                <h1>Testando gradiente</h1>
-            </div>
-        </div>
-    </div>
-    <!-- Importe o JavaScript do Bootstrap (opcional, dependendo dos componentes que você está usando) -->
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <h1>Testando gradiente</h1>
 </body>
 </html>
