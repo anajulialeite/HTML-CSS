@@ -6,19 +6,30 @@
     <!--left da esquerda para a direita e to right da direita para a esquerda-->
     <!--To top de cima para baixo e to bottom de baixo para cima-->
     <title>Gradiente em CSS</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <!--para fazer de cima para baixo precisa fazer uma configuração global ex: *{}-->
     <style>
-        *{
-            height: 100%;
-        }
         body {
             background-image: linear-gradient(to bottom, rgb(1, 107, 107), #03C6F5, #26CAE0, #05DDF5);
             background-attachment: fixed;
+            min-height: 100vh; /* Define a altura mínima do corpo para ocupar toda a altura da viewport */
+            margin: 0; /* Remova as margens padrão do corpo */
+            display: flex; /* Use display flex para alinhar verticalmente o conteúdo */
+            justify-content: center; /* Alinhe o conteúdo horizontalmente */
+            align-items: center; /* Alinhe o conteúdo verticalmente */
         }
         
+        .content {
+            text-align: center; /* Centralize o conteúdo dentro do elemento .content */
+        }
     </style>
 </head>
 <body>
-    <h1>Testando gradiente</h1>
+    <div class="container">
+        <div class="content">
+            <h1>Testando gradiente</h1>
+            <!-- Aqui você pode adicionar mais conteúdo conforme necessário -->
+        </div>
+    </div>
 </body>
 </html>
