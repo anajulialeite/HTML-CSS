@@ -5,11 +5,12 @@
     /*height: 100%;*/
 }
 
-body{
+body {
     background-image: linear-gradient(to right, #003840, #005A5B, #007369, #008C72, #02A676);
+    background-attachment: fixed;
 }
 
-main{
+main {
     background-color: white;
     border-radius: 20px;
     box-shadow: 5px 5px 15px rgba(0, 46, 38, 0.534);
@@ -18,16 +19,16 @@ main{
     margin: auto;
 }
 
-h1{
+h1 {
     color: #003840;
     text-align: center;
     text-shadow: 1px 1px 2px #21d5f1e3;
 }
 
-h2{
+h2 {
     color:#008C72
 }
 
-p{
+p {
     text-align: justify;
 }

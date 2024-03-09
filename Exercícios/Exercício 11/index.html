@@ -9,13 +9,18 @@
     <h1>Imagem Dinâmica</h1>
     <p>Tente abrir esse site em vários dispositivos diferentes ou simplesmente aumente e diminua o tamanho do seu nagevador.</p>
 
-    <!--Já deixo claro que essa parte não funcionou, não sei oq eu fiz de errado-->
     <picture>
-        <source media="(max-width: 750px)" srcset="imagens/lertra p.jpg" type="image/jpg">
-        <source media="(max-width: 1050px)" srcset="imagens/lertra m.png" type="Image/png">
-        <img src="imagens/letra g.jpg" alt="Imagem flexível"> <!--Essa é a imagem maior pelo qual eu quero trabalhar, seguindo uma ordem de tamanho do maior para o menor, de baixo para cima, eu consigo manipular as imagens para aparecer dependendo do tamanho da minha tela, da G vai para M e da M vai para a P.-->
+        <!-- Imagem da Letra P para telas pequenas -->
+        <source media="(max-width: 750px)" srcset="imagens/LetraP.jpg" type="image/jpg">
+    
+        <!-- Imagem da Letra M para telas médias -->
+        <source media="(max-width: 1050px)" srcset="imagens/LetraM.png" type="image/png">
+    
+        <!-- Imagem da Letra G para telas grandes -->
+        <img src="imagens/LetraG.jpg" alt="Imagem flexível">
+        <!--Essa é a imagem maior pelo qual eu quero trabalhar, seguindo uma ordem de tamanho do maior para o menor e de baixo para cima. Eu consigo manipular as imagens para aparecer, dependendo do tamanho da minha tela. A letra G vai para M e da M vai para a P.-->
     </picture>
-
+    
     <h1>Reproduzindo áudio</h1> <!---Esse audio vai se reperir para sempre, pois eu usei o comando loop, pra parar é só pausar e por o play na música seguinte-->
     <p>Vamos aprender a reproduzir audios em HTML5.</p>
     <audio src="midia/zombie.mp3" autoplay controls loop></audio>
