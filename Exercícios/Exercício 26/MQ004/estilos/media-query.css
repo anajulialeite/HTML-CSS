@@ -10,7 +10,7 @@
   Desktop: 992px até 1200px
   Grandes telas: acima de 1200px*/
 
-  /*Vou azer a penas de tablet, desktop e telas grandes. Pois, eu já fiz o celular e telas pequenas no meu style*/
+  /*Vou fazer a penas de tablet, desktop e telas grandes. Pois, eu já fiz o celular e telas pequenas no meu style*/
 
 @media print {  /*Impressão*/
     * {
