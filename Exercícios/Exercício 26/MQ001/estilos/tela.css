@@ -18,12 +18,14 @@ header {
 
 header > h1 {
     text-align: center;
+    width: 100%
 }
 
 menu ul {
     list-style-type: none;
     /*Utilizado para tirar a bolinha do li*/
     background-color: lightseagreen;
+    width: 100%
 }
 
 menu li {
