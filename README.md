@@ -4,6 +4,8 @@
 
  Estou aprendendo a criar sites e agora vou gerenciar meus repositórios!
 
+ Baixei o Visual Studio Code pelo Windows Store.
+
  <a href= "https://anajulialeite.github.io/HTML-CSS/Exercícios/Exercício 1/index.html">Executar o exercício 1</a>
 
  <a href= "https://anajulialeite.github.io/HTML-CSS/Exercícios/Exercício 2/index.html">Executar o exercício 2</a>
