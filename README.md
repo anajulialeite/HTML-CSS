@@ -4,30 +4,29 @@
 
 <img src="Imagem/HTML-CSS.png" alt="HTML-CSS" align="right" width="150">
 
-Aqui estão todos os exercícios e alguns projetos que correspondem ao Módulo 1, 2, 3 e 4 do 
- Curso de HTML5 e CSS3, CursoemVideo!!!
+Aqui estão todos os exercícios e alguns projetos que correspondem ao Módulo 1, 2, 3 e 4 do Curso de HTML5 e CSS3, CursoemVideo!!!
 
- Estou aprendendo a criar sites e agora vou gerenciar meus repositórios!
+Estou aprendendo a criar sites e agora vou gerenciar meus repositórios!
 
- Baixei o Visual Studio Code pelo Windows Store.
+Baixei o Visual Studio Code pelo Windows Store.
 
- <a href= "https://anajulialeite.github.io/HTML-CSS/Exercícios/Exercício 1/index.html">Executar o exercício 1</a>
+<a href= "https://anajulialeite.github.io/HTML-CSS/Exercícios/Exercício 1/index.html">Executar o exercício 1</a>
 
- <a href= "https://anajulialeite.github.io/HTML-CSS/Exercícios/Exercício 2/index.html">Executar o exercício 2</a>
+<a href= "https://anajulialeite.github.io/HTML-CSS/Exercícios/Exercício 2/index.html">Executar o exercício 2</a>
 
- <a href= "https://anajulialeite.github.io/HTML-CSS/Exercícios/Exercício 3/index.html">Executar o exercício 3</a>
+<a href= "https://anajulialeite.github.io/HTML-CSS/Exercícios/Exercício 3/index.html">Executar o exercício 3</a>
 
- <a href= "https://anajulialeite.github.io/HTML-CSS/Exercícios/Exercício 4/index.html">Executar o exercício 4</a>
+<a href= "https://anajulialeite.github.io/HTML-CSS/Exercícios/Exercício 4/index.html">Executar o exercício 4</a>
 
- <a href= "https://anajulialeite.github.io/HTML-CSS/Exercícios/Exercício 5/index.html">Executar o exercício 5</a>
+<a href= "https://anajulialeite.github.io/HTML-CSS/Exercícios/Exercício 5/index.html">Executar o exercício 5</a>
 
- <a href= "https://anajulialeite.github.io/HTML-CSS/Exercícios/Exercício 6/index.html">Executar o exercício 6</a>
+<a href= "https://anajulialeite.github.io/HTML-CSS/Exercícios/Exercício 6/index.html">Executar o exercício 6</a>
 
- <a href= "https://anajulialeite.github.io/HTML-CSS/Exercícios/Exercício 7/index.html">Executar o exercício 7</a>
+<a href= "https://anajulialeite.github.io/HTML-CSS/Exercícios/Exercício 7/index.html">Executar o exercício 7</a>
 
- <a href= "https://anajulialeite.github.io/HTML-CSS/Exercícios/Exercício 8/index.html">Executar o exercício 8</a>
+<a href= "https://anajulialeite.github.io/HTML-CSS/Exercícios/Exercício 8/index.html">Executar o exercício 8</a>
 
- <a href= "https://anajulialeite.github.io/HTML-CSS/Exercícios/Exercício 8.1/index.html">Executar o exercício 8.1</a>
+<a href= "https://anajulialeite.github.io/HTML-CSS/Exercícios/Exercício 8.1/index.html">Executar o exercício 8.1</a>
 
 <a href= "https://anajulialeite.github.io/HTML-CSS/Exercícios/Exercício 9/index.html">Executar o exercício 9</a>
 
